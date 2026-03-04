@@ -6,9 +6,7 @@ Within the folder _"Answers from the AI-assistants"_ - https://github.com/evanno
 
 ### **They are tagged as follow:**
 
-* **[Experimental] Benchmark-name** refers to P1 (Basic) and P2 (Specialized). Those are the straight prompt, implementing few restrictions from the dataset (The Computer Language Benchmarks Game). They are mostly one-shot prompt, sometimes specifying specific data or techniques required by the dataset.
-
-* **[CLBG] Benchmark-name** refers to P3 (Basic) and P4 (Specialized). Those are the prompts implementing all restrictions from the dataset (The Computer Language Benchmarks Game). 
+* **Benchmark-name** it contains the prompts (P1, P2, P3 and P4). P1 and P2 straight prompt, with P2 adding the role-play technique. P3 and P3 implement the restrictions from the dataset (The Computer Language Benchmarks Game), with P4 adding the role-play technique.
 
 ----------
 
@@ -16,20 +14,8 @@ In the folder _"Codes from the AI-assistants"_ - https://github.com/evannobre/ai
 
 ### **The folders are organized as follow:**
 
-* **[Experimental] Benchmark-name** refers to codes provided from the P1 (Basic) and P2 (Specialized) prompts. 
+* **Benchmark-name** it contains only the codes outputed per AI-assistant, prompt and search mode.
 
-* **[CLBG] Benchmark-name** refers to codes provided from the P3 (Basic) and P4 (Specialized) prompts. 
-
-  * **Each "[Experimental] Benchmark-name" or "[CLBG] Benchmark-name" folder contains four sub-folders:**
-
-    * **Basic Prompt - Normal Mode** codes generated from P1 (Experimental)/P3 (CLBG) using the "common" search-mode.
-
-    * **Basic Prompt - TBR Mode** codes generated from P1 (Experimental)/P3 (CLBG) using the "think before responding" search-mode.
-
-    * **Specialized Prompt - Normal Mode** codes generated from P2 (Experimental)/P4 (CLBG) using the "common" search-mode.
-
-    * **Specialized Prompt - TBR Mode** codes generated from P2 (Experimental)/P4 (CLBG) using the "think before responding" search-mode.
-   
+  * **The codes will also follow the name pattern:** _BenchmarkName_LLM_PromptType_SearchMode.CodeExtension_.
+  
 ----------
-
-The codes will also follow the name pattern: _BenchmarkName_LLM_PromptType_SearchMode.CodeExtension_.
